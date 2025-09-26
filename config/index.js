@@ -7,6 +7,7 @@ export default {
     services: {
         auth: process.env.AUTH_SERVICE_URL || "http://auth-service:5004",
         user: process.env.USER_SERVICE_URL || "http://user-service:5001",
-        payment: process.env.PAYMENT_SERVICE_URL || "http://payment-service:5002"
+        payment: process.env.PAYMENT_SERVICE_URL || "http://payment-service:5002",
+        credit: process.env.CREDIT_SERVICE_URL || "http://credit-service:5002"
     }
 };
